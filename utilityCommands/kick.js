@@ -6,7 +6,7 @@ module.exports = {
     execute(message, args) {
         // Check if the user has the necessary permissions to use the command
         if (!message.member.permissions.has('KICK_MEMBERS')) {
-            return message.reply('❌ You do not have permission to use this command.');
+            return message.reply('❌ Slow down bucko, you do not have permission to use this command!');
         }
 
         // Check if a user was mentioned in the command
@@ -22,7 +22,7 @@ module.exports = {
         // Create an embed object
         const embed = new EmbedBuilder()
             .setColor('#FF0000')
-            .setTitle('User Kicked ✅')
+            .setTitle('Sucessfully kicked user.')
             .setDescription(`▶️ ${user.tag} has been kicked from the server by ${message.author.tag}.`)
             .setTimestamp();
 
