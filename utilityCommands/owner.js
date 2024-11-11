@@ -4,12 +4,12 @@ module.exports = {
     name: 'owner',
     description: 'Bot owner info',
     execute(message, args) {
-        const youtubeLink = 'https://www.youtube.com/@GlaceYT';
-        const InstagramLink = 'https://www.instagram.com/glaceytt';
+        const youtubeLink = 'https://eclipticlabs.webflow.io';
+        const InstagramLink = 'https://guns.lol/mrwxlfz';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Myself Shiva aka GlaceYT. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n ❤️ [GlceYT](${youtubeLink})\n 💙 [GlaceYTT](${InstagramLink})`)
+            .setTitle('Owner Info')
+            .setDescription(`__**About me**__:\n I'm MrWxlfz, a experience developer. I am a Roblox Developer and Front-End software engineer. Feel free to contact me anytime!\n 🌙 [Company Website](${youtubeLink})\n 🌙 [My Socials](${InstagramLink})`)
             .setTimestamp();
 
 
