@@ -21,37 +21,37 @@ module.exports = {
       .addFields(
       
         {
-          name: '▶️  Basic',
+          name: '🌙  Basic',
           value: '`avatar`, `owner`, `support`, `invite`, `userinfo`',
           inline: true,
         },
        
         {
-          name: '▶️  Music',
+          name: '🌙  Music',
           value: '`play`, `stop`, `seek`,`volume`,`pause`,`resume`,`skip`,`remove`,`shuffle`,`queue`',
           inline: true,
         },
       
         {
-          name: '▶️  Fun',
+          name: '🌙  Fun',
           value: ' `ascii`, `joke`, `roll`',
           inline: true,
         },
       
         {
-          name: '▶️  Image',
+          name: '🌙  Image',
           value: '`cat`, `dog`',
           inline: true,
         },
       
         {
-          name: '▶️  Anime',
+          name: '🌙  Anime',
           value: '`<prefix>animecommands for more info`',
           inline: true,
         },
      
         {
-          name: '▶️  Utility',
+          name: '🌙  Utility',
           value: '`kick`, `ban`, `serverinfo`,`userinfo`, `clear`',
           inline: true,
         }
@@ -60,18 +60,18 @@ module.exports = {
       
 
     const button1 = new ButtonBuilder()
-      .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setLabel('Website')
+      .setURL('https://eclipticlabs.webflow.io')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/xQF9f9yUEM')
+      .setURL('https://discord.gg/ngr5mBfx28')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://github.com/GlaceYT')
+      .setLabel('Owner Contact')
+      .setURL('https://guns.lol/mrwxlfz')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
