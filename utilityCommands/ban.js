@@ -9,7 +9,7 @@ module.exports = {
     description: 'Ban a user from the server',
     execute(message, args) {
         if (!message.member.permissions.has('BAN_MEMBERS')) {
-            return message.reply('❌ You do not have permission to use this command.');
+            return message.reply('❌ Slow down bucko, you do not have permission to use this command!');
         }
         const user = message.mentions.users.first();
         if (!user) {
@@ -19,8 +19,8 @@ module.exports = {
         member.ban();
         const embed = new EmbedBuilder()
             .setColor('#FF0000')
-            .setTitle('User Banned ✅')
-            .setDescription(`▶️ ${user.tag} has been banned from the server by ${message.author.tag}.`)
+            .setTitle('User sent to shadow realm.')
+            .setDescription(`🌙 ${user.tag} has been banned from the server by ${message.author.tag}.`)
             .setTimestamp();
 
         message.reply({ embeds: [embed] });
