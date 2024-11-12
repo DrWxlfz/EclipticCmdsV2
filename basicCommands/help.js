@@ -21,37 +21,37 @@ module.exports = {
       .addFields(
       
         {
-          name: '🌙  Basic',
+          name: 'Basic',
           value: '`avatar`, `owner`, `support`, `invite`, `userinfo`',
           inline: true,
         },
        
         {
-          name: '🌙  Music',
+          name: 'Music',
           value: '`play`, `stop`, `seek`,`volume`,`pause`,`resume`,`skip`,`remove`,`shuffle`,`queue`',
           inline: true,
         },
       
         {
-          name: '🌙  Fun',
+          name: 'Fun',
           value: ' `ascii`, `joke`, `roll`',
           inline: true,
         },
       
         {
-          name: '🌙  Image',
+          name: 'Image',
           value: '`cat`, `dog`',
           inline: true,
         },
       
         {
-          name: '🌙  Anime',
+          name: 'Anime',
           value: '`<prefix>animecommands for more info`',
           inline: true,
         },
      
         {
-          name: '🌙  Utility',
+          name: 'Utility',
           value: '`kick`, `ban`, `serverinfo`,`userinfo`, `clear`',
           inline: true,
         }
