@@ -9,7 +9,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Owner Info')
-            .setDescription(`__**About me**__:\n I'm MrWxlfz, a experience developer. I am a Roblox Developer and Front-End software engineer. Feel free to contact me anytime!\n 🌙 [Company Website](${youtubeLink})\n 🌙 [My Socials](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n I'm MrWxlfz, a experience developer. I am a Roblox Developer and Front-End software engineer. Feel free to contact me anytime!\n  [Company Website](${youtubeLink})\n  [My Socials](${InstagramLink})`)
             .setTimestamp();
 
 
